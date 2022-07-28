@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PeakBike.Web", "PeakBike.Web\", "{75E701D2-90C0-48CE-8A96-A46B422F8B27}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4168"
+		Debug.AspNetCompiler.PhysicalPath = "PeakBike.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4168\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4168"
+		Release.AspNetCompiler.PhysicalPath = "PeakBike.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4168\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4168"
+		SlnRelativePath = "PeakBike.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{7EAB3911-D5D9-455E-AC3F-347A67950725} = {7EAB3911-D5D9-455E-AC3F-347A67950725}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeakBike.Core", "PeakBike.Core\PeakBike.Core.csproj", "{7EAB3911-D5D9-455E-AC3F-347A67950725}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75E701D2-90C0-48CE-8A96-A46B422F8B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E701D2-90C0-48CE-8A96-A46B422F8B27}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EAB3911-D5D9-455E-AC3F-347A67950725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EAB3911-D5D9-455E-AC3F-347A67950725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EAB3911-D5D9-455E-AC3F-347A67950725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EAB3911-D5D9-455E-AC3F-347A67950725}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B76D1C1-EC45-49F4-A54D-AEDA81A9872E}
+	EndGlobalSection
+EndGlobal
